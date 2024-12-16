@@ -75,7 +75,7 @@
 .starter-menu {
   width: 100%;
   height: 60vh;
-  border: 1px solid crimson;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,7 +96,7 @@
     align-items: start;
     justify-content: flex-start;
     flex-direction: column;
-    border: 1px solid rgb(20, 27, 220);
+    
     height: inherit;
 }
 
