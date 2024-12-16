@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pr-yellow-color: #ff9f0d;
+  --background-dark-color: #0d0d0d;
+  --white-color: #ffffff;
+}
+
+.menu-sec {
+  padding: 2rem 8rem;
+}
+
+.header-wt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #0d0d0d;
+  padding: 2rem 8rem;
+}
+
+.link {
+  color: var(--white-color);
+  text-decoration: none;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: var(--pr-yellow-color);
+}
+
+.head-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+
+.second-header {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../images/headermenu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.second-header h2 {
+  color: var(--white-color);
+  font-size: 3rem;
+}
+
+.second-header p {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-header p span {
+  color: var(--pr-yellow-color);
+}
+
+.starter-menu {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid crimson;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.startimage {
+  width: 40%;
+  height: inherit;
+  background-image: url(../images/starter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.starttext{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid rgb(20, 27, 220);
+    height: inherit;
+}
+
+.starttext h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.star-list{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.star-bt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.star-bt span{
+    color: var(--pr-yellow-color);
+}
+
+.starttext p{
+    color: #333333;
+    margin-bottom: 0.5rem;
+}   
