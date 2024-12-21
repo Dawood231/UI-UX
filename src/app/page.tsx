@@ -65,6 +65,7 @@ export default function Home() {
               <Link href="./menu_page" className="link">
                 Contact
               </Link>
+              
             </nav>
             <div className="search">
               <div className="input-field">

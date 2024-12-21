@@ -12,6 +12,7 @@ body {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
+  background-color: var(--background-dark-color);
 }
 
 .home-page {
@@ -607,7 +608,7 @@ nav .link {
 
 .client-card {
   width: 80%;
-  height: auto;
+  height:auto;
   background-color: var(--white-color);
   display: flex;
   align-items: center;
@@ -882,6 +883,7 @@ nav .link {
 footer {
   width: 100%;
   height: auto;
+  margin-bottom: 2rem;
 }
 
 .support {
@@ -1044,6 +1046,7 @@ footer {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+
 }
 
 .f-col-2 h4 {
@@ -1126,6 +1129,7 @@ footer {
   background-repeat: no-repeat;
 }
 
+
 .f-card-img-3 {
   width: 50%;
   height: inherit;
@@ -1148,42 +1152,3 @@ footer {
   color: #828282;
 }
 
-.page-not {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 2rem 8rem;
-}
-
-.page-not h1 {
-  font-size: 6rem;
-  color: var(--pr-yellow-color);
-  font-weight: 800;
-  margin-bottom: 1rem;
-}
-
-.page-not p {
-  color: var(--background-dark-color);
-  font-size: 1.8rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-}
-.page-not span {
-  color: var(--background-dark-color);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  width: 60%;
-  text-align: center;
-}
-
-.btn-404 {
-  background-color: var(--pr-yellow-color);
-  color: var(--white-color);
-  font-size: 1.2rem;
-  font-weight: 800;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-}

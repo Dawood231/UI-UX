@@ -13,8 +13,8 @@ import { IoSearch } from "react-icons/io5";
 import { FaStar } from "react-icons/fa";
 import { PiClockClockwiseFill } from "react-icons/pi";
 
-import quotes from "../images/quotes2.png";
-import ellipse from "../images/ellipse.png";
+import quotes from "../images/Quotes.png";
+import ellipse from "../images/Ellipse.png";
 
 
 // social icons

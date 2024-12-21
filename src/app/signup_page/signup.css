@@ -6,7 +6,7 @@
   
   :root {
     --pr-yellow-color: #ff9f0d;
-    --background-dark-color: #0d0d0d;
+    --background-dark-color: white;
     --white-color: #ffffff;
   }
   
@@ -17,4 +17,10 @@
   
   .signup-sec {
     padding: 2rem 8rem;
+  }
+  .footer{
+    background-color: black;
+  }
+  .py-16{
+    background-color: white;
   }
