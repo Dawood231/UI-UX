@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --pr-yellow-color: #ff9f0d;
+    --background-dark-color: #0d0d0d;
+    --white-color: #ffffff;
+  }
+  
+  .signup-page {
+    width: 100%;
+    height: auto;
+  }
+  
+  .signup-sec {
+    padding: 2rem 8rem;
+  }

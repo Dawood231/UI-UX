@@ -34,8 +34,8 @@ export default function Header() {
           <Link href="./menu_page" className="link">
             Shop
           </Link>
-          <Link href="./menu_page" className="link">
-            Contact
+          <Link href="./signup_page" className="link">
+            Signup
           </Link>
         </div>
         <div className="head-icon">
@@ -43,6 +43,6 @@ export default function Header() {
           <BsMinecartLoaded className="cart-icon-white" />
           <BsPerson />
         </div>
-      </div>
-  )
+      </div>
+  )
 }
