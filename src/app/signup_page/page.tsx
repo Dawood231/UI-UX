@@ -19,7 +19,7 @@ export default function page() {
     <div className="signup-page">
       <Header />
 
-      <SecHeader />
+      <SecHeader para="SignIn" title="SignIn"/>
 
       <div className="signup-sec"></div>
       <section className="py-16">

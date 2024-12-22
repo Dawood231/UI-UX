@@ -38,7 +38,7 @@ export default function page() {
     <div className="menu-page">
     <Header/>
 
-    <SecHeader/>
+    <SecHeader title="Menu" para="Menu"/>
     
 
       <div className="menu-sec">

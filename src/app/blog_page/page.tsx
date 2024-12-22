@@ -28,7 +28,7 @@ export default function page() {
   return (
     <div>
       <Header />
-      <SecHeader />
+      <SecHeader  title="Blog" para="Blog"/>
 
       <div className="blog">
         <div className="blog-left">
