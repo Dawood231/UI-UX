@@ -15,7 +15,6 @@ export default function notfound() {
   return (
     <>
       <Header />
-      {/* Passing title and para props to SecHeader */}
       <SecHeader 
         title="Page Not Found" 
         para="Oops! Looks like something went wrong" 
@@ -25,7 +24,7 @@ export default function notfound() {
         <h1>404</h1>
         <p>Oops! Looks like something went wrong</p>
         <span>
-          Age cannot be found! We'll have it figured out in no time. Meanwhile,
+          Age cannot be found! We&apos;ll have it figured out in no time. Meanwhile,
           check out these fresh ideas:
         </span>
         <button className="btn-404">Go Back to Home</button>
@@ -39,7 +38,7 @@ export default function notfound() {
                 <span className="yellow">St</span>ill You Need Our Support?
               </h2>
               <p>
-                Don’t wait, make a smart & logical quote here. It’s pretty easy.
+                Don&apos;t wait, make a smart &amp; logical quote here. It&apos;s pretty easy.
               </p>
             </div>
 
@@ -87,7 +86,7 @@ export default function notfound() {
             <h4>Help?</h4>
             <ul>
               <li>FAQ</li>
-              <li>Terms & Conditions</li>
+              <li>Terms &amp; Conditions</li>
               <li>Reporting</li>
               <li>Documentation</li>
               <li>Support Policy</li>
