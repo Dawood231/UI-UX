@@ -63,7 +63,7 @@ export default function Home() {
                 Shop
               </Link>
               <Link href="./menu_page" className="link">
-                Contact
+                SignIn
               </Link>
               
             </nav>
