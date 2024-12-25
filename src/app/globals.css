@@ -65,6 +65,12 @@ nav .link {
   padding: 1rem;
   font-size: 1.1rem;
   font-weight: 200;
+  transition: 0.4s;
+}
+
+
+nav .link:hover{
+  color: var(--pr-yellow-color);
 }
 
 .search {
@@ -1206,8 +1212,37 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .navbar {
+
+  .header .image{
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .navbar .search{
     display: none;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  nav .link{
+    color: white;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 200;
   }
 
   .hero-sec {
@@ -1217,7 +1252,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .header-bg {

@@ -62,8 +62,8 @@ export default function Home() {
               <Link href="./menu_page" className="link">
                 Shop
               </Link>
-              <Link href="./menu_page" className="link">
-                Contact
+              <Link href="./signup_page" className="link">
+                SignIn
               </Link>
               
             </nav>
