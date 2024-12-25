@@ -35,7 +35,7 @@ export default function Header() {
             Shop
           </Link>
           <Link href="./signup_page" className="link">
-            Signin
+            SignIn
           </Link>
         </div>
         <div className="head-icon">
